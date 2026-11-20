@@ -1,4 +1,4 @@
-# RAG Pipeline Security Validator & Defense Hardening Toolkit - TAVARDT New Zealand
+# RAG Pipeline Security Validator & Defense Hardening Toolkit
 
 > Context Isolation Audit, Indirect Injection Prevention, and Defensive AI Engineering
 
