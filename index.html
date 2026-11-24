@@ -10,7 +10,7 @@
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-KCR5N7R7');</script>
+  })(window,document,'script','dataLayer','GTM-PSNQ8HLQ');</script>
   
 
   <meta charset="UTF-8">
@@ -1002,7 +1002,7 @@
   </style>
 </head>
 <body>
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KCR5N7R7"
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PSNQ8HLQ"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <header class="tavardt-header">
@@ -1432,14 +1432,14 @@ if __name__ == "__main__":
       if (sel) sel.value = tab;
       const box = document.getElementById('code-box');
       if (box && codeTemplates[tab]) {
-        box.innerText = codeTemplates[tab];
+        box.textContent = codeTemplates[tab];
       }
     }
 
     function copyCode() {
       const code = codeTemplates[activeTab];
       if (!code) return;
-      navigator.clipboard.writeText(code).then(() => {
+      navigator.clipboard.writeText(code).catch(() => {}).then(() => {
         const btn = document.getElementById('btn-copy-code');
         if (btn) {
           const orig = btn.innerText;
@@ -1470,7 +1470,7 @@ if __name__ == "__main__":
       const codeEl = document.getElementById('cli-terminal-code');
       if (!codeEl) return;
       const code = codeEl.innerText;
-      navigator.clipboard.writeText(code).then(() => {
+      navigator.clipboard.writeText(code).catch(() => {}).then(() => {
         const btn = document.getElementById('btn-copy-cli');
         if (!btn) return;
         const textSpan = btn.querySelector('.btn-copy-cli-text');
