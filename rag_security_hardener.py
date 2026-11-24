@@ -119,7 +119,7 @@ def main():
     parser.add_argument("--indirect-filter", type=int, choices=[1, 2, 3], default=3, help="Indirect injection filter: 1=None, 2=Keyword blacklist, 3=Heuristic defensive filter")
     parser.add_argument("--output-gate", type=int, choices=[1, 2, 3], default=3, help="Output gate: 1=None, 2=Basic citations, 3=Strict gate with data masking")
     parser.add_argument("--export-blueprint", type=str, metavar="PATH", help="Export defensive Python middleware file to the specified path")
-    parser.add_argument("--json", action="store_true", help="Output audit results in JSON format")
+    parser.add_argument("-json", "--json", action="store_true", help="Output audit results in JSON format")
 
     args = parser.parse_args()
 
