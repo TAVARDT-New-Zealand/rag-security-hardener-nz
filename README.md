@@ -11,9 +11,6 @@ Developed and maintained by the Artificial Intelligence Security Engineering Div
 
 ***
 
-
-***
-
 ## Online Demonstration & Defensive Architecture Hub
 
 You can inspect the technical defensive specifications, architectural diagnostic tests, and mitigation blueprints directly in your browser:
@@ -50,6 +47,14 @@ python3 rag_security_auditor.py
 # 3. Output results in machine-readable JSON format
 python3 rag_security_auditor.py -json
 ```
+
+***
+
+## Useful Links
+
+* **Corporate Portal:** https://ag.tavardt.com/nz/
+* **Diagnostic Suite:** https://tools.tavardt.com/nz/
+* **Technical Contact:** https://ag.tavardt.com/nz/contact/
 
 ***
 
