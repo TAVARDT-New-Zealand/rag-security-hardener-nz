@@ -8,7 +8,7 @@
 
 ***
 
-## Online Demonstration & Defensive Architecture Hub
+## Online Demonstration
 
 You can inspect the technical defensive specifications, architectural diagnostic tests, and mitigation blueprints directly in your browser:
 
